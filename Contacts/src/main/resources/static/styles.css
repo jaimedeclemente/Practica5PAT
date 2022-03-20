@@ -1,0 +1,20 @@
+header
+{
+    background-image: linear-gradient(to bottom, #5e608a, #6a6b94, #76779d, #8282a7, #8e8eb1);
+}
+body
+{
+    background-color: rgb(142, 142, 177);
+}
+footer
+{
+    background-image: linear-gradient(to bottom, #8e8eb1, #8282a7, #76779d, #6a6b94, #5e608a);
+}
+#tabla-cotizacion
+{
+    background-color: #5e608a;
+}
+*
+{
+    font-family : "Futura";
+}
