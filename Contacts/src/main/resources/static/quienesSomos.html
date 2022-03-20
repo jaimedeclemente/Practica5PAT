@@ -169,8 +169,8 @@
                           <input type="text" class="form-control" id="lname" placeholder="Pérez">
                         </div>
                         <div class="col-12">
-                          <label for="inputEmail4" class="form-label">Email:</label>
-                          <input type="email" class="form-control" id="inputEmail4" placeholder="pepito@perez.com">
+                          <label for="inputEmail" class="form-label">Email:</label>
+                          <input type="email" class="form-control" id="inputEmail" placeholder="pepito@perez.com">
                         </div>
                         <div class="col-12">
                           <label for="inputAddress" class="form-label">Dirección</label>
@@ -253,23 +253,6 @@
                         <div class="col-12">
                             <div id="liveAlertPlaceholder"></div>
                             <button type="button" class="btn btn-outline-dark" id="liveAlertBtn">Suscríbeme</button>
-                            <script>
-                                var alertPlaceholder = document.getElementById('liveAlertPlaceholder')
-                                var alertTrigger = document.getElementById('liveAlertBtn')
-
-                                function alert(message, type) {
-                                var wrapper = document.createElement('div')
-                                wrapper.innerHTML = '<div class="alert alert-' + type + ' alert-dismissible" role="alert">' + message + '<button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button></div>'
-
-                                alertPlaceholder.append(wrapper)
-                                }
-
-                                if (alertTrigger) {
-                                alertTrigger.addEventListener('click', function () {
-                                    alert('¡Perfecto, te has suscrito!', 'success')
-                                })
-                                }
-                            </script>
                         </div>
                       </form>
                 </div>
@@ -304,4 +287,6 @@
         </center>
     </footer>
 </body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="./quienesSomos.js"></script>
 </html>
